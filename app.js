@@ -26,6 +26,14 @@ app.get('/', (req,res) => {
     res.render('index');
 });
 
+app.get('/lyrical_template', (req,res) => {
+    res.render('lyrically');
+});
+
+app.get('/my_diary_template', (req,res) => {
+    res.render('my_diary');
+});
+
 app.post('/upload', (req,res) => {
     upload(req,res, err => {
         fs.readFile(`./uploads/${req.file.originalname}`, (err,data) => {
