@@ -89,7 +89,22 @@ a {
   margin-top: 30px;
   line-height: 40px;
   }
-
+  .bluebutton{
+    text-align: center;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    width: 170px;
+    background-color: #4c66f7;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 670px;
+    margin-top: 30px;
+    line-height: 40px;
+    }
+  
   .inputfile{
     margin-left: 200px;
     margin-top: 40px;
@@ -100,12 +115,48 @@ a {
     font-family: 'Roboto', sans-serif;
     display: inline-block;
     cursor: pointer;
-    width: 300px;
+    width: 400px;
     background-color: #ffa000;
     border-radius: 20px;
     color: white;
     font-size: 20px;
-    margin-left: 200px;
+    margin-left: 170px;
     
     line-height: 40px;
+    }
+
+    #blankdocument{
+      margin: 0px;
+      font-size: 15px;
+    }
+    #todoHeading{
+      font-family: 'Satisfy', cursive;
+      color: white;
+      text-align: center;
+    }
+    #todo{
+      background-color: #e94d89;
+    }
+    #todotext{
+      font-family: 'Satisfy', cursive;
+      color: white;
+      text-align: center;
+    }
+    #diaryHeading{
+      font-family: 'Cookie', cursive;
+      color:#e94d89;
+      text-align: left;
+      margin-left: 15px;
+      margin-top: 50px;
+      
+    }
+    #diary{
+      background-color: #ffffff;
+    }
+    #diarytext{
+      font-family: 'Cookie', cursive;
+      text-align: left;
+      margin-left: 15px;
+      font-size: 30px;
+      text-decoration: underline
     }
